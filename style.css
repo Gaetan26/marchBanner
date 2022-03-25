@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #F1F1F1;
+}
+
+.banner{
+    width: 60%;
+    height: 150vh;
+    margin: 25px auto;
+}
+
+.top{
+    width: 100%;
+    height: 60%;
+    background: url('images/img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    position: relative;
+}
+
+.top .content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 0;
+}
+
+.top .mav{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: #FFF;
+    z-index: 6;
+    position: relative;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 40%;
+}
+
+.top .date{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top .date p:nth-child(1){
+    font-family: 'Noto sans';
+    font-size: 50px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-right: 6px;
+}
+
+.top .date p:nth-child(1) span{
+    font-size: 11px;
+    margin-right: 6px;
+}
+
+.top .date p:nth-child(2){
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: end;
+    font-family: 'Poppins';
+    font-size: 40px;
+}
+
+.top .date p:nth-child(2) span:nth-child(1){
+    font-family: 'The Andallass';
+}
+
+.top .date p:nth-child(2) span:nth-child(2){
+    font-size: 13px;
+}
+
+.top .title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #FFF;
+    font-size: 45px;
+    font-family: 'Andre martin demo';
+    width: 100%;
+    text-align: center;
+}
+
+.top .title p:nth-child(1){
+    font-family: 'Poppins';
+    font-size: 16px;
+    text-align: left;
+    transform: translateX(18%);
+}
+
+.top .title p:nth-child(3){
+    font-family: 'The Andallass';
+    font-size: 85px;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.top .invite{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Noto sans';
+    transform: translateX(10%);
+}
+
+.top .invite p span{
+    font-family: 'The Andallass';
+    font-size: 35px;
+    display: block;
+}
+
+.top .invite p span.pt{
+    font-family: 'Poppins';
+    font-size: 14px;
+    display: inline-block;
+}
+
+.top .time{
+    position: absolute;
+    top: 80%;
+    right: 5%;
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'Noto sans';
+}
+
+.top .time p span{
+    font-family: 'The Andallass';
+    font-size: 38px;
+    display: block;
+}
+
+
+
+.end{
+    width: 100%;
+    height: 40%;
+    background: #FFF;
+    position: relative;
+}
+
+.end .icont{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 80px;
+    height: 80px;
+    background: #FFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: #00B2FF; */
+    font-size: 40px;
+}
+
+.end .icont i{
+    background: linear-gradient(-135deg, #C850C0, #4158D0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.end .tx{
+    font-family: 'The Andallass';
+    font-size: 38px;
+    text-align: center;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.end .progs{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.end .progs .container{
+    width: calc(90% / 3);
+    height: 90%;
+}
+
+.end .progs .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end .progs .container .bx{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.end .progs .container .bx i{
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    background: linear-gradient(-135deg, #C850C0, #4158D0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.end .progs .container .bx .text{
+    width: 90%;
+}
+
+.end .progs .container .bx .text p{
+    font-family: 'Noto sans';
+    font-size: 18px;
+    color: #313131;
+    text-align: center;
+    /* letter-spacing: .6px; */
+    /* margin: 3px; */
+    font-weight: 200;
+}
+
+.end .progs .container .bx .text p span{
+    font-size: 14px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font-family: 'quostige';
+}
+
+.end .wcm{
+    position: absolute;
+    position: absolute;
+    top: 85%;
+    right: 5%;
+    font-family: 'The Andallass';
+    font-size: 25px;
+}
+
+.end .ga{
+    font-family: 'Poppins';
+    font-size: 12px;
+    letter-spacing: .3px;
+    color: #4158D0;
+}
+
+.end .ga1{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+}
+
+.end .ga2{
+    position: absolute;
+    top: 90%;
+    right: 5%;
+}
