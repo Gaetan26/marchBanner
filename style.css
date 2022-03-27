@@ -37,13 +37,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-/*     overflow: hidden; */
+    overflow: hidden;
 }
 
 .certificat{
     background: #FFF;
-    width: 95%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
